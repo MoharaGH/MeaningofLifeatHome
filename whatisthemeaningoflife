@@ -1,0 +1,9 @@
+// Prompt the user for input
+var userInput = prompt("What is the meaning of life?");
+
+// Check if the input is equal to "42"
+if (userInput === "42") {
+    alert("You are correct!");
+} else {
+    alert("No, you are wrong. Please go and read the Hitchhiker's Guide to the Galaxy.");
+}
